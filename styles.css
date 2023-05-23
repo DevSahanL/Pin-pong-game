@@ -1,0 +1,33 @@
+#game-container {
+    width: 400px;
+    height: 300px;
+    background-color: #000;
+    position: relative;
+  }
+  
+  #paddle-user, #paddle-ai {
+    width: 10px;
+    height: 60px;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  #paddle-user {
+    top: 120px;
+    left: 10px;
+  }
+  
+  #paddle-ai {
+    top: 120px;
+    right: 10px;
+  }
+  
+  #ball {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 145px;
+    left: 195px;
+  }
+  
